@@ -17,4 +17,4 @@ An open-source AI platform built for the **Hacktoberfest 2026 Hack Day**. This a
 - **@challengerthe026-maker** - Repository Setup & Frontend Design Shell
 - **@divyanshiyadav396** - AI Model Configuration & Core Backend Logic
 - **@satyamsingh2310** - Git Workflow & Documentation Management
-- **rujula-gupta** - Price_calc.txt
+- **@rujula-gupta** - Price_calc.txt
