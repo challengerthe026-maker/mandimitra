@@ -1,0 +1,39 @@
+# MandiMitra 🌾
+
+## Project Overview
+MandiMitra helps farmers compare crop prices at different mandis and estimate their returns after transportation costs.
+
+## Problem Statement
+Farmers may not know which mandi offers the best return after travel expenses.
+
+## Our Solution
+Our application compares two mandis and recommends the option with the higher estimated net return based on user-entered prices and costs.
+
+## Features
+- Crop selection
+- Quantity input
+- Mandi price comparison
+- Transportation cost calculation
+- Estimated net return
+- Simple recommendation
+
+## Technology Stack
+- HTML
+- CSS
+- JavaScript
+- GitHub
+
+## Calculation Formula
+Net Return = (Quantity in quintals × Price per quintal) − Transport Cost
+
+## Future Improvements
+- Live mandi price integration
+- AI-powered recommendations
+- Support for more crops and mandis
+- Farmer-friendly multilingual interface
+
+## Limitations
+The current prototype uses sample prices. It does not yet use live mandi data.
+
+## License
+MIT License
