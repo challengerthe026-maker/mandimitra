@@ -1,4 +1,4 @@
-<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/72e84786-7060-4ee5-b1fc-16f24684e05d" /># Mandi Mitra AI Assistant 🌾
+# Mandi Mitra AI Assistant 🌾
 
 An open-source AI platform built for the **Hacktoberfest 2026 Hack Day**. This application helps small-scale farmers check local mandi rates, compare logistics costs with regional hubs, and receive data-driven selling advice using generative AI.
 
@@ -17,4 +17,3 @@ An open-source AI platform built for the **Hacktoberfest 2026 Hack Day**. This a
 - **@challengerthe026-maker** - Repository Setup & Frontend Design Shell
 - **@divyanshiyadav396** - AI Model Configuration & Core Backend Logic
 - **@satyamsingh2310** - Git Workflow & Documentation Management
-
