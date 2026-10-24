@@ -10,30 +10,40 @@ Farmers may not know which mandi offers the best return after travel expenses.
 Our application compares two mandis and recommends the option with the higher estimated net return based on user-entered prices and costs.
 
 ## Features
-- Crop selection
-- Quantity input
-- Mandi price comparison
-- Transportation cost calculation
-- Estimated net return
-- Simple recommendation
+Mandi Mitra is a mobile-first ledger application designed for verified agricultural crop trading in Maharashtra. It bridges the gap between Farmers, Agricultural Experts (Graders), and Traders by ensuring transparent grading, guaranteed floor pricing, and secure escrow-backed trade workflows.
 
-## Technology Stack
-- HTML
-- CSS
-- JavaScript
-- GitHub
+👥 User Roles & Workflow
+The platform supports three distinct roles, each with specific workflows:
 
-## Calculation Formula
-Net Return = (Quantity in quintals × Price per quintal) − Transport Cost
+Farmer:
 
-## Future Improvements
-- Live mandi price integration
-- AI-powered recommendations
-- Support for more crops and mandis
-- Farmer-friendly multilingual interface
+My Lots: View existing crop lots, track their status (pending audit vs. certified), and see SMS/WhatsApp notifications regarding expert grades.
 
-## Limitations
-The current prototype uses sample prices. It does not yet use live mandi data.
+Add a Lot: Submit new crop quantities (Wheat, Soybean, Maize, Onion, Tur, Gram), varieties, harvest dates, and storage locations. New lots are initially hidden from the marketplace until certified.
 
-## License
-MIT License
+Deliveries: Track accepted deals, route weather updates, and escrow fund releases.
+
+Expert (Auditor):
+
+Audit Queue: Review pending lots and input quality measurements (moisture %, foreign matter %, grain size, color, pest damage). The system automatically assigns a grade (A to D) and calculates price bands.
+
+Certified Lots: View all successfully graded lots.
+
+Feature: Includes a toggle to simulate a market feed outage, falling back on 3-year seasonal baselines.
+
+Trader:
+
+Market: Browse certified lots filtered by crop, grade, minimum quantity, and radius distance from their base location.
+
+AI Bargain Broker: Engage with an automated negotiation system where bids are evaluated against live market bands (Accept, Counter-offer, or Reject).
+
+My Deals & Payments: Manage secure transactions, 10% deposits held in escrow, B2B credit lines, UPI IDs, and APMC eNAM ledgers.
+
+⚙️ Technical Highlights
+Interactive UI/UX: Responsive mobile-first layout with dark/light mode support, dynamic forms, and modal sheets.
+
+Geospatial & Route Telemetry: Calculates distances using the Haversine formula and flags live route hazards (e.g., heavy rain, road blockages) affecting delivery fleets.
+
+Secure Financial Handshakes: Implements mock HMAC cryptographic signatures for UPI verification, escrow locks, and credit line ledgers.
+
+
